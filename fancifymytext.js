@@ -45,5 +45,5 @@ moo.onclick = () => {
   alert("moo");
   var newText = text.value.toUpperCase();
   var sentences = newText.split(".");
-  text.value = sentences.join("-Moo. ");
+  text.value = sentences.join("-Moo.");
 };
